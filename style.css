@@ -1,0 +1,230 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital@1&family=Roboto:wght@300&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.container{
+    display: flex;
+    margin-top: 10px;
+}
+.sidebar{
+    background-color:rgb(246, 238, 238);
+    height: 100vh;
+    /* width:12vw; */
+    font-family: 'Roboto', sans-serif;
+    color: black;
+    text-align: center;
+    padding: 25px;
+    transition:  transform 0.2s ease-in;
+    font-weight: bold;
+}
+.main{
+    /* background-color: lightblue; */
+    width: 88vw;
+}
+
+.naviteams li{
+    text-decoration: none;
+    list-style: none;
+    font-size: 15px;
+    padding: 25px 0px;
+    font-weight: bold;
+}
+.naviteams a{
+    text-decoration: none;
+}
+.section{
+    display: flex;
+    height: 70vh;
+    /* border: 2px solid red; */
+    margin: 55px 25px;
+    font-size: 10px;
+}
+
+.mypic img{
+    margin-left: 120px;
+    height: 70vh;
+}
+.intro{
+    margin: 100px;
+}
+.hello{
+    font-family: 'Roboto', sans-serif;
+    /* font-size: 30px; */
+    font-size: 2em;
+}
+.name{
+    font-family: 'Montserrat', sans-serif;
+    /* font-size: 35px; */
+    font-size: 3em;
+}
+.about{
+    font-family: 'Montserrat', sans-serif;
+    /* font-size: 20px; */
+    font-size: 2em;
+}
+.moreabout{
+    font-family: 'Montserrat', sans-serif;
+    /* font-size: 15px; */
+    font-size: 1.4em;
+}
+.buttons button{
+    margin: 5px;
+    border-radius: 5px;
+    background-color:blue;
+    color: white;
+    padding: 3px;
+}
+.buttons button:hover{
+    margin: 5px;
+    border-radius: 5px;
+    background-color:white;
+    color: black;
+    padding: 3px;
+}
+.aboutmepage{
+    margin: 50px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 10px;
+}
+.aboutmepage p{
+    margin: 15px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.5em;
+}
+.aboutmepage li{
+    /* background-color:rgb(219, 183, 183); */
+    margin: 2px;
+    font-size: 1.5em;
+}
+
+.hundred{
+    width: 350px;
+    background-color: skyblue;
+}
+.seventy{
+    background-color: pink;
+    width: 260px;
+}
+.fifty{
+    background-color: rgb(67, 238, 238);
+    width: 180px;
+}
+.services{
+    margin: 50px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 10px;
+}
+.services p{
+    margin: 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.4em;
+}
+.services  li{
+    margin: 10px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.4em;
+}
+.blogs{
+    margin: 50px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 10px;
+}
+.blogs h2{
+    font-size: 1.8em;
+}
+.blogs h4{
+    font-size: 1.4em;
+}
+.blogiteams{
+    margin: 15px;
+    font-family: 'Montserrat', sans-serif;
+    border: 2px solid rgb(243, 239, 231);
+    /* box-shadow: 15px; */
+    margin: 15px;
+    padding: 10px;
+    font-size: 1.4em;
+}
+.blogiteams button{
+    border: 2px solid black;
+    background-color: blue;
+    color: white;
+    border-radius: 6px;
+    padding: 2px;
+}
+.blogiteams button:hover{
+    border: 2px solid black;
+    background-color: white;
+    color: black;
+    border-radius: 3px;
+    padding: 2px;
+}
+.contactme{
+    margin: 50px;
+    font-size: 10px;
+}
+.contactme form{
+    /* background-color: rgb(223, 205, 205); */
+    /* color: black; */
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+.mb-3{
+    margin: 25px;
+}
+.name1{
+    display: flex;
+    flex-direction: column;
+}
+.email{
+    display: flex;
+    flex-direction: column;
+}
+.mobile{
+    display: flex;
+    flex-direction: column;
+}
+.checkbox{
+    display: flex;
+    flex-direction: column;
+}
+form button{
+    margin-left: 18px;
+    border: 2px solid black;
+    padding: 3px;
+    border-radius: 5px;
+    background-color: rgb(46, 46, 182);
+    color: white;
+}
+form button:hover{
+    margin-left: 18px;
+    border: 2px solid black;
+    padding: 3px;
+    border-radius: 5px;
+    background-color: white;
+    color: black;
+}
+
+.hamburger{
+    position: absolute;
+    top: 5px;
+    left: 10px;
+    cursor: pointer;
+}
+.cross{
+    margin-left: 40px;
+    /* margin-top: 2px; */
+}
+.sidebargo{
+    transform: translate(-440px,0px);
+    position: absolute;
+}
+/* @media (max-width:950px) {
+    *{
+        background-color: rgb(207, 207, 235);    
+    }
+    
+
+} */
